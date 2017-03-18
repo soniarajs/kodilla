@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+[class*="col-"] {
+	width: 100%;
+	float: left;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("pattern/patterny_Obszar-roboczy-9-kopia.png");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+.block {
+	background-color: #000;
+	height: 3vh;
+	width: 100%;
+	
+}
+
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.row {
+	margin: 50px 0;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	max-width: 850px;
+	text-align: left;
+	font-size: 52px;
+	line-height: 60px;
+	margin-left: 30px;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 700;
+	margin: 20px 0 10px 0;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.col-m-1 p {
+	font-size: 50px;
+	font-weight: 900;
+	margin: 7px 0 0 27px;
+}
+
+.col-m-5 img {
+	margin-top: 28px;
+}
+
+.col-m-6 {
+	padding-right: 25px;
+	padding-left: 20px;
+	font-size: 17px;
+}
+
+.col-m-6 p {
+	margin: 0;
+}
+
+button p2 {
+	float: left;
+	margin: 0 10px;
+	font-size: 15px;
+}
+
+.fa {
+	float: left;
+	margin: 0 10px 0 15px;
+	font-size: 17px;
+}
+
+button {
+	width: 130px;
+	height: 40px;
+	border: #000 solid 2px;
+	padding: 5px;
+	cursor: pointer;
+	background-color: transparent;
+	margin-top: 15px;
+}
+
+button:hover {
+	background-color: #E0E0E0;
+}
